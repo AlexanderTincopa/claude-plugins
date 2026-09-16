@@ -1,0 +1,8 @@
+{
+  "plugins": [
+    {
+      "name": "git-flow",
+      "source": "."
+    }
+  ]
+}

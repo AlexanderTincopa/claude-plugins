@@ -1,0 +1,10 @@
+{
+  "name": "git-flow",
+  "version": "1.0.0",
+  "description": "Flujo estandar de git/GitHub: revision de cambios, commit en Conventional Commits, push y creacion de PR con gh, adaptandose a la convencion de cada repo.",
+  "author": {
+    "name": "Alexander Tincopa"
+  },
+  "homepage": "https://github.com/AlexanderTincopa/claude-plugins",
+  "license": "MIT"
+}
