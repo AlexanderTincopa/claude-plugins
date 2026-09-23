@@ -1,4 +1,10 @@
 {
+  "name": "atincopa-plugins",
+  "description": "Plugins de Claude Code reutilizables entre los repos del equipo",
+  "owner": {
+    "name": "Alexander Tincopa",
+    "email": "alexander.tincopah@gmail.com"
+  },
   "plugins": [
     {
       "name": "git-flow",
