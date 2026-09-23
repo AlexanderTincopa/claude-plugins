@@ -10,24 +10,26 @@ Automatiza el flujo de git/GitHub (revisión de cambios, commit, push, creación
 
 ## Instalación (una vez por persona)
 
+El identificador interno de este marketplace es `atincopa-plugins` (no `claude-plugins`: ese nombre queda reservado para marketplaces oficiales de Anthropic). Úsalo tal cual en los comandos:
+
 ```bash
 claude plugin marketplace add AlexanderTincopa/claude-plugins
-claude plugin install git-flow@claude-plugins
+claude plugin install git-flow@atincopa-plugins
 ```
 
-O desde dentro de una sesión de Claude Code:
+O desde dentro de una sesión de Claude Code (CLI, no la extensión de VSCode — `/plugin` no está disponible ahí todavía):
 
 ```
 /plugin marketplace add AlexanderTincopa/claude-plugins
-/plugin install git-flow@claude-plugins
+/plugin install git-flow@atincopa-plugins
 ```
 
-Una vez instalado, la skill queda disponible en cualquier repo que abras, invocable como `/git-flow:git-flow` o simplemente pidiendo en lenguaje natural "sube estos cambios", "crea el PR", etc.
+Verifica con `claude plugin list` que quedó `Status: enabled`. Una vez instalado (scope: user), la skill queda disponible en cualquier repo que abras en esa máquina, invocable como `/git-flow:git-flow` o simplemente pidiendo en lenguaje natural "sube estos cambios", "crea el PR", etc.
 
 ## Actualizar a la última versión
 
-```
-/plugin marketplace update claude-plugins
+```bash
+claude plugin update git-flow
 ```
 
 ## Agregar un plugin nuevo
